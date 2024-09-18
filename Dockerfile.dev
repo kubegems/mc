@@ -1,0 +1,13 @@
+# syntax=docker/dockerfile:1
+
+FROM alpine
+LABEL maintainer="MinIO Inc <dev@min.io>"
+ARG TARGETOS TARGETARCH
+COPY mc-${TARGETOS}-${TARGETARCH} /usr/bin/mc
+WORKDIR /usr/bin
+ENTRYPOINT ["/usr/bin/mc"]
+
+
+
+
+
