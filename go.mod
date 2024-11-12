@@ -44,7 +44,7 @@ require (
 	github.com/charmbracelet/bubbles v0.16.1
 	github.com/charmbracelet/lipgloss v0.8.0
 	github.com/gdamore/tcell/v2 v2.6.0
-	github.com/golang-jwt/jwt/v4 v4.5.0
+	github.com/golang-jwt/jwt/v4 v4.5.1
 	github.com/juju/ratelimit v1.0.2
 	github.com/minio/madmin-go/v3 v3.0.32
 	github.com/minio/pkg/v2 v2.0.2
